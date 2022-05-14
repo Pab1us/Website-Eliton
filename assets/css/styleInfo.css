@@ -1,0 +1,106 @@
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*Intro*/
+
+.intro {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background: url("../images/fonClear.jpg") center repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro_suptitle {
+    font-family: 'Roboto',cursive;
+    font-size: 30px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+
+.intro_title {
+    font-family: 'Roboto',cursive;
+    font-size: 20px;
+    color: #333;
+
+}
+
+.tdAdress {
+    text-align: end;
+}
+
+table {
+    width: 100%;
+    font-family: 'Kaushan Script',cursive;
+    font-size: 20px;
+    padding-left: 100px;
+}
+li {
+    text-align: left;
+    font-family: 'Kaushan Script',cursive;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.imgblock {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid #4b710d;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b710d;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #4b710d;
+    color: #fff;
+}
+
+.copyright {
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #4b710d;
+    text-align: center;
+    color: #333;
+}
+
+
+*,
+*:before,
+*:after{
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}

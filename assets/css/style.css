@@ -1,0 +1,132 @@
+.containerMain {
+    position: relative;
+    top: 15%;
+}
+/*Intro*/
+.intro {
+
+    width: 100%;
+    height: 100vh;
+    min-height: 820px;
+    position: relative;
+
+    background: url("../Images/intro.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #fff;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.intro_suptitle {
+    font-family: 'Roboto', serif;
+    font-size: 72px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+
+.intro_title {
+    font-family: 'Roboto', serif;
+    color: #4b710d;
+    text-shadow: 1px 1px 2px black, 0 0 1em #333;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.intro_title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 60px auto 60px;
+
+    background-color: #4b710d;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    border: 3px solid #4b710d;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b710d;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #4b710d;
+    color: #fff;
+}
+
+/*Slider*/
+.slider {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.slider_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_item {
+    width: 23%;
+    padding: 20px 0;
+    position: relative;
+
+    border-top: 3px solid #fff;
+    opacity: 0.7;
+
+    font-size: 18px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.slider_item.active {
+    opacity: 1;
+}
+
+.slider_item.active:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+
+    background-color: #f38181;
+
+    position: absolute;
+    top: -3px;
+    left: 0;
+    z-index: 1;
+
+}
+
+.slider_num {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+*,
+*:before,
+*:after{
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    margin: 0;
+}
